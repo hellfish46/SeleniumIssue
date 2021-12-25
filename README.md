@@ -5,7 +5,7 @@ Run selenide in docker:
 --name selenoid                                 \
 -p 4444:4444                                    \
 -v /var/run/docker.sock:/var/run/docker.sock    \
--v /Users/antonhrytsun/Documents/config_dir:/etc/selenoid/:ro              \
+-v /Users/[username]/Documents/config_dir:/etc/selenoid/:ro              \
 aerokube/selenoid:latest-release
 ```
 
@@ -13,5 +13,6 @@ Install Java 11
 To run tests:
 
 ```
-mvnw clean test
+mvn clean test
 ```
+OR find class 'FirstTest' and run the single test 'x'.
