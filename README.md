@@ -8,7 +8,8 @@
 -v /Users/[username]/Documents/config_dir:/etc/selenoid/:ro              \
 aerokube/selenoid:latest-release
 ```
-2)Install Java 11
+2)Install Java 11;
+
 3)Run the test:
 ```
 mvn clean test
