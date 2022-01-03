@@ -1,6 +1,6 @@
 # SeleniumIssue
 
-1)Run selenide in docker:
+1)Run selenoid in docker:
 ```docker run -d                                   \
 --name selenoid                                 \
 -p 4444:4444                                    \
